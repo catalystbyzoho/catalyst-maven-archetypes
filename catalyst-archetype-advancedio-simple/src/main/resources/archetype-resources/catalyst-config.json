@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "$appName",
+		"stack": "java$javaVersion",
+		"type": "advancedio"
+	},
+	"execution": {
+		"main": "$package.$className"
+	}
+}
