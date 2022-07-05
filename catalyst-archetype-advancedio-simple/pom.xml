@@ -8,6 +8,7 @@
         <artifactId>catalyst-maven-archetypes</artifactId>
         <version>0.0.1</version>
     </parent>
+
     <artifactId>catalyst-archetype-advancedio-simple</artifactId>
     <packaging>maven-archetype</packaging>
 
