@@ -1,0 +1,1 @@
+# catalyst-maven-archetypes
