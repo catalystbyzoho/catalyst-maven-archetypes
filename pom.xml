@@ -51,7 +51,7 @@
   </distributionManagement>
 
   <modules>
-      <module>catalyst-archetype-advancedio-simple</module>
+      <module>catalyst-archetype-advancedio-basic</module>
       <module>catalyst-archetype-advancedio</module>
   </modules>
   <packaging>pom</packaging>

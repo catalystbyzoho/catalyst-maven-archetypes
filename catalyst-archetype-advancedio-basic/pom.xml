@@ -9,10 +9,10 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>catalyst-archetype-advancedio-simple</artifactId>
+    <artifactId>catalyst-archetype-advancedio-basic</artifactId>
     <packaging>maven-archetype</packaging>
 
-    <name>Archetype - catalyst-archetype-advancedio-simple</name>
+    <name>Archetype - catalyst-archetype-advancedio-basic</name>
 
     <build>
         <plugins>
