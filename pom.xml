@@ -63,14 +63,6 @@
     <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-gpg-plugin</artifactId>
-      <version>3.0.1</version>
-    </dependency>
-  </dependencies>
-
   <build>
     <extensions>
       <extension>
@@ -107,6 +99,7 @@
         </plugin>
 
         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-gpg-plugin</artifactId>
           <version>3.0.1</version>
           <executions>
