@@ -34,7 +34,7 @@
       <plugin>
         <groupId>com.zoho.catalyst</groupId>
         <artifactId>catalyst-maven-plugin</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
         <executions>
           <execution>
             <id>catalyst-package</id>
