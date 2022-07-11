@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zoho.catalyst</groupId>
     <artifactId>catalyst-maven-archetypes</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
 
     <name>maven-archetypes</name>
     <description>Maven Archetypes for ZOHO Catalyst</description>
