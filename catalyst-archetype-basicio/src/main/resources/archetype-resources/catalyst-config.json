@@ -2,7 +2,7 @@
 	"deployment": {
 		"name": "$appName",
 		"stack": "java$javaVersion",
-		"type": "advancedio"
+		"type": "basicio"
 	},
 	"execution": {
 		"main": "$package.$className"

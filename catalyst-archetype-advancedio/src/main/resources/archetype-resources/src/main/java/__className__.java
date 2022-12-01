@@ -11,10 +11,8 @@ import com.catalyst.advanced.CatalystAdvancedIOHandler;
 import com.zc.common.ZCProject;
 import com.zc.component.cache.ZCCache;
 
-public class ${className} implements CatalystAdvancedIOHandler
-{
+public class ${className} implements CatalystAdvancedIOHandler {
     private static final Logger LOGGER = Logger.getLogger(${className}.class.getName());
-	
 	@Override
     public void runner(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		try {

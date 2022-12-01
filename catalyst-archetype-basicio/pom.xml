@@ -12,7 +12,7 @@
     <artifactId>catalyst-archetype-advancedio-basic</artifactId>
     <packaging>maven-archetype</packaging>
 
-    <name>Archetype - catalyst-archetype-advancedio-basic</name>
+    <name>Archetype - catalyst-archetype-basicio</name>
 
     <build>
         <extensions>
