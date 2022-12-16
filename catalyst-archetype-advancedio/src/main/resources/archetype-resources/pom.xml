@@ -58,6 +58,7 @@
           </execution>
         </executions>
         <configuration>
+          <org>${orgId}</org>
           <project>${projectId}</project>
         </configuration>
       </plugin>

@@ -41,6 +41,10 @@ under the License.
       <defaultValue>8</defaultValue>
     </requiredProperty>
 
+    <requiredProperty key="orgId">
+      <defaultValue>&lt;!-- TO BE FILLED --&gt;</defaultValue>
+    </requiredProperty>
+
     <requiredProperty key="projectId">
       <defaultValue>&lt;!-- TO BE FILLED --&gt;</defaultValue>
     </requiredProperty>
