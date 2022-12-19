@@ -39,6 +39,7 @@ under the License.
 
     <requiredProperty key="javaVersion">
       <defaultValue>8</defaultValue>
+      <validationRegex>[0-9]+</validationRegex>
     </requiredProperty>
 
     <requiredProperty key="orgId">
@@ -53,6 +54,7 @@ under the License.
 
     <requiredProperty key="appName">
       <defaultValue>${artifactId}-${package.getClass().forName("java.util.UUID").getMethod("randomUUID").invoke(null).toString().replace("-", "")}</defaultValue>
+      <validationRegex>[A-Za-z0-9_\-\.]+</validationRegex>
     </requiredProperty>
   </requiredProperties>
 

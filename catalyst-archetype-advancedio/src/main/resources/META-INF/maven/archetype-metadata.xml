@@ -33,24 +33,28 @@ under the License.
     </requiredProperty>
 
     <requiredProperty key="className">
-      <validationRegex>[A-Za-z0-9_\-\.]+</validationRegex>
+      <validationRegex>[A-Z][$_a-zA-Z0-9]*</validationRegex>
       <defaultValue>App</defaultValue>
     </requiredProperty>
 
     <requiredProperty key="javaVersion">
       <defaultValue>8</defaultValue>
+      <validationRegex>[0-9]+</validationRegex>
     </requiredProperty>
 
     <requiredProperty key="orgId">
       <defaultValue>&lt;!-- TO BE FILLED --&gt;</defaultValue>
+      <validationRegex>[0-9]+</validationRegex>
     </requiredProperty>
 
     <requiredProperty key="projectId">
       <defaultValue>&lt;!-- TO BE FILLED --&gt;</defaultValue>
+      <validationRegex>[0-9]+</validationRegex>
     </requiredProperty>
 
     <requiredProperty key="appName">
       <defaultValue>${artifactId}-${package.getClass().forName("java.util.UUID").getMethod("randomUUID").invoke(null).toString().replace("-", "")}</defaultValue>
+      <validationRegex>[A-Za-z0-9_\-\.]+</validationRegex>
     </requiredProperty>
   </requiredProperties>
 
