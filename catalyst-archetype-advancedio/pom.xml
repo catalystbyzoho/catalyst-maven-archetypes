@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.zoho.catalyst</groupId>
         <artifactId>catalyst-maven-archetypes</artifactId>
-        <version>0.0.5</version>
+        <version>0.0.6</version>
     </parent>
 
     <artifactId>catalyst-archetype-advancedio</artifactId>
